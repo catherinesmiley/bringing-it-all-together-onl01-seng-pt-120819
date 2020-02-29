@@ -11,7 +11,7 @@ class Dog
   
   def initialize(hash)
     hash.each do |key, value|
-      
+      self.send
   end 
   
   def self.create_table
