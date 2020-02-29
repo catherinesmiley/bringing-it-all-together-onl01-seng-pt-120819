@@ -10,7 +10,8 @@ class Dog
   # end 
   
   def initialize(hash)
-    hash.each do |
+    hash.each do |key, value|
+      
   end 
   
   def self.create_table
