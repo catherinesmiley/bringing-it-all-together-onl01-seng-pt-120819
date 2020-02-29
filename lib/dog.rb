@@ -104,6 +104,8 @@ class Dog
       SET name = ?, breed = ?
       WHERE id = ?
     SQL
+    
+    DB[:conn].execute(sql, name, breed, id)
   end 
   
 end 
