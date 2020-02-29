@@ -101,7 +101,7 @@ class Dog
   def update
     sql = <<-SQL
       UPDATE dogs
-      
+      SET name = ?
     SQL
   end 
   
